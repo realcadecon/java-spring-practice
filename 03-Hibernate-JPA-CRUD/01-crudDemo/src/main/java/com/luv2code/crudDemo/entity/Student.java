@@ -55,8 +55,11 @@ public class Student {
         this.email = email;
     }
 
-    //toString()
+    public int getId() {
+        return id;
+    }
 
+    //toString()
     @Override
     public String toString() {
         return "Student{" +
