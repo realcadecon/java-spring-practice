@@ -20,7 +20,6 @@ public class CustomerController {
         webDataBinder.registerCustomEditor(String.class, stringTrimmerEditor);
 
     }
-
     @GetMapping("/")
     public String showForm(Model model) {
         model.addAttribute("customer", new Customer());
