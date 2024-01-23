@@ -18,11 +18,6 @@ public class InstructorDetail {
     @Column(name = "hobby")
     private String hobby;
 
-
-    @OneToOne(cascade = {CascadeType.DETACH, CascadeType.PERSIST, CascadeType.REFRESH, CascadeType.DETACH},
-            mappedBy = "instructorDetail")
-    private Instructor instructor;
-
     public InstructorDetail() {}
 
     public InstructorDetail(String youtubeChannel, String hobby) {
@@ -52,14 +47,6 @@ public class InstructorDetail {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public Instructor getInstructor() {
-        return instructor;
-    }
-
-    public void setInstructor(Instructor instructor) {
-        this.instructor = instructor;
     }
 
     @Override
