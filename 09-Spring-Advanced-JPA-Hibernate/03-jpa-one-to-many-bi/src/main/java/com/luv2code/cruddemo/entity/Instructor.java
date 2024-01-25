@@ -2,6 +2,7 @@ package com.luv2code.cruddemo.entity;
 
 import jakarta.persistence.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -26,8 +27,9 @@ public class Instructor {
     private InstructorDetail instructorDetail;
 
     @OneToMany(mappedBy = "instructor",
+                fetch = FetchType.LAZY,
                 cascade = { CascadeType.DETACH, CascadeType.MERGE,
-                            CascadeType.PERSIST, CascadeType.REFRESH})          
+                            CascadeType.PERSIST, CascadeType.REFRESH})
     private List<Course> courseList;
 
     public Instructor() {}
@@ -76,6 +78,22 @@ public class Instructor {
 
     public void setInstructorDetail(InstructorDetail instructorDetail) {
         this.instructorDetail = instructorDetail;
+    }
+
+    public void add(Course course) {
+        if(courseList == null) {
+            courseList = new ArrayList<>();
+        }
+        courseList.add(course);
+        course.setInstructor(this);
+    }
+
+    public List<Course> getCourseList() {
+        return courseList;
+    }
+
+    public void setCourseList(List<Course> courseList) {
+        this.courseList = courseList;
     }
 
     @Override
