@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf Example</title>
+</head>
+<body>
+
+    <h1>luv2Code Leaders Home Page</h1>
+    <hr>
+    <p>Welcome to leaders home page of luv2Code Company!</p>
+    <hr>
+    <p>
+        User: <span sec:authentication="principal.username"></span>
+        <br>
+        Role(s): <span sec:authentication="principal.authorities"></span>
+    </p>
+    <p>
+        Don't forget about the company trip to BRAZIL!!!
+        <br>
+        But please keep this hush hush!! Only leaders are allowed!!!
+    </p>
+    <a th:href="@{/}">Back to home page</a>
+</body>
+</html>
