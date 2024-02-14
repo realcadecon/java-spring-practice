@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title>Systems Page</title>
+</head>
+<body>
+
+    <h1>luv2Code System Home Page</h1>
+    <hr>
+    <p>Welcome to systems home page of luv2Code Company!</p>
+    <p>
+        User: <span sec:authentication="principal.username"></span>
+        <br>
+        Role(s): <span sec:authentication="principal.authorities"></span>
+    </p>
+    <hr>
+    <p>
+        Don't forget about the company trip to EUROPE!!!
+        <br>
+        But please keep this hush hush!! Only admins are allowed!!!
+    </p>
+    <a th:href="@{/}">Back to home page</a>
+</body>
+</html>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2261a076-a95c-4cae-b752-45c7ae66c780" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/09-Spring-Advanced-JPA-Hibernate/03-jpa-one-to-many-bi/src/main/java/com/luv2code/cruddemo/CruddemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/09-Spring-Advanced-JPA-Hibernate/03-jpa-one-to-many-bi/src/main/java/com/luv2code/cruddemo/CruddemoApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="2261a076-a95c-4cae-b752-45c7ae66c780" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +13,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2bxYcciqIF8IDMAfKwrlS0TBdWi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,7 +26,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/cadea/Documents/java-spring-practice/09-Spring-Advanced-JPA-Hibernate/03-jpa-one-to-many-bi"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/cadec/Documents/java-spring-course-2023/java-spring-practice/08-Spring-MVC-Security/01-spring-boot-spring-mvc-security"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
