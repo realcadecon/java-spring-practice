@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2261a076-a95c-4cae-b752-45c7ae66c780" name="Changes" comment="" />
+    <list default="true" id="2261a076-a95c-4cae-b752-45c7ae66c780" name="Changes" comment="finished Spring Advanced JPA/Hibernate">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +29,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/cadec/Documents/java-spring-course-2023/java-spring-practice/08-Spring-MVC-Security/01-spring-boot-spring-mvc-security"
+    "last_opened_file_path": "C:/Users/cadea/Documents/java-spring-practice/10-Spring-Boot-AOP/01-spring-boot-aop-demo"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -39,6 +41,19 @@
       <option name="presentableId" value="Default" />
       <updated>1707158277482</updated>
     </task>
+    <task id="LOCAL-00001" summary="finished Spring Advanced JPA/Hibernate">
+      <option name="closed" value="true" />
+      <created>1708546358780</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708546358780</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished Spring Advanced JPA/Hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished Spring Advanced JPA/Hibernate" />
   </component>
 </project>
