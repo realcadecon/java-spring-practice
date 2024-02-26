@@ -1,8 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2261a076-a95c-4cae-b752-45c7ae66c780" name="Changes" comment="finished Spring Advanced JPA/Hibernate">
+    <list default="true" id="2261a076-a95c-4cae-b752-45c7ae66c780" name="Changes" comment="adding git ignores">
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/01-spring-boot-aop-demo/src/main/java/com/luv2code/aopdemo/customFunctions/CustomFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/01-spring-boot-aop-demo/src/main/java/com/luv2code/aopdemo/dao/MembershipDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/01-spring-boot-aop-demo/src/main/java/com/luv2code/aopdemo/dao/MembershipDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/src/main/java/com/luv2code/aopdemo/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/src/main/java/com/luv2code/aopdemo/AopdemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/src/main/java/com/luv2code/aopdemo/aspect/AnalyticsAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/src/main/java/com/luv2code/aopdemo/aspect/AopExpressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/src/main/java/com/luv2code/aopdemo/aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/src/main/java/com/luv2code/aopdemo/aspect/SecurityAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/src/main/java/com/luv2code/aopdemo/customFunctions/CustomFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/src/main/java/com/luv2code/aopdemo/dao/AccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/src/main/java/com/luv2code/aopdemo/dao/AccountDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/src/main/java/com/luv2code/aopdemo/dao/MembershipDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/src/main/java/com/luv2code/aopdemo/dao/MembershipDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/src/main/java/com/luv2code/aopdemo/service/TrafficFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/src/main/java/com/luv2code/aopdemo/service/TrafficFortuneServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/02-spring-boot-aop-ordering-aspects/src/test/java/com/luv2code/aopdemo/AopdemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/sql-scripts/employee-directory.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/src/main/java/com/luv2code/springboot/thymeleafdemo/ThymeleafdemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/src/main/java/com/luv2code/springboot/thymeleafdemo/aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/src/main/java/com/luv2code/springboot/thymeleafdemo/aspect/PointcutExpressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/src/main/java/com/luv2code/springboot/thymeleafdemo/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/src/main/java/com/luv2code/springboot/thymeleafdemo/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/src/main/java/com/luv2code/springboot/thymeleafdemo/dao/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/src/main/java/com/luv2code/springboot/thymeleafdemo/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/src/main/java/com/luv2code/springboot/thymeleafdemo/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/src/main/java/com/luv2code/springboot/thymeleafdemo/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/src/main/resources/templates/employees/employee-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/src/main/resources/templates/employees/list-employees.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/src/main/resources/templates/helloworld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/src/test/java/com/luv2code/springboot/thymeleafdemo/ThymeleafdemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/target/classes/com/luv2code/springboot/thymeleafdemo/ThymeleafdemoApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/target/classes/com/luv2code/springboot/thymeleafdemo/aspect/LoggingAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/target/classes/com/luv2code/springboot/thymeleafdemo/aspect/PointcutExpressions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/target/classes/com/luv2code/springboot/thymeleafdemo/controller/DemoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/target/classes/com/luv2code/springboot/thymeleafdemo/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/target/classes/com/luv2code/springboot/thymeleafdemo/dao/EmployeeRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/target/classes/com/luv2code/springboot/thymeleafdemo/entity/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/target/classes/com/luv2code/springboot/thymeleafdemo/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/target/classes/com/luv2code/springboot/thymeleafdemo/service/EmployeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/target/classes/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/target/classes/templates/employees/employee-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/target/classes/templates/employees/list-employees.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/target/classes/templates/helloworld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/03-spring-boot-mvc-crud-aop/target/test-classes/com/luv2code/springboot/thymeleafdemo/ThymeleafdemoApplicationTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-Spring-Boot-AOP/01-spring-boot-aop-demo/src/main/java/com/luv2code/aopdemo/AopdemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/01-spring-boot-aop-demo/src/main/java/com/luv2code/aopdemo/AopdemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-Spring-Boot-AOP/01-spring-boot-aop-demo/src/main/java/com/luv2code/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/01-spring-boot-aop-demo/src/main/java/com/luv2code/aopdemo/aspect/MyDemoLoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-Spring-Boot-AOP/01-spring-boot-aop-demo/src/main/java/com/luv2code/aopdemo/dao/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/01-spring-boot-aop-demo/src/main/java/com/luv2code/aopdemo/dao/AccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-Spring-Boot-AOP/01-spring-boot-aop-demo/src/main/java/com/luv2code/aopdemo/dao/AccountDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-Spring-Boot-AOP/01-spring-boot-aop-demo/src/main/java/com/luv2code/aopdemo/dao/AccountDAOImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +96,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/cadea/Documents/java-spring-practice/10-Spring-Boot-AOP/01-spring-boot-aop-demo"
+    "last_opened_file_path": "C:/Users/cadea/Documents/java-spring-practice"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -49,11 +116,43 @@
       <option name="project" value="LOCAL" />
       <updated>1708546358780</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding git ignores">
+      <option name="closed" value="true" />
+      <created>1708982419011</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708982419011</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished Spring Advanced JPA/Hibernate" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished Spring Advanced JPA/Hibernate" />
+    <MESSAGE value="adding git ignores" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding git ignores" />
   </component>
 </project>

@@ -4,4 +4,8 @@ public interface AccountDAO {
 
     void addAccount();
 
+    int addAndReturnAccountNum();
+
+    int returnAccountNum(int accountNum);
+
 }
